@@ -25,7 +25,7 @@ npm install -g casket
 
 ```
 Usage:
-	casket [--name my-little-server] [--dir ~/path/to/dir]
+    casket [--name my-little-server] [--dir ~/path/to/dir]
 
 Options:
     --name      -n  The name of the server, as shown in the GUI.

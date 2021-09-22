@@ -1,8 +1,8 @@
 #search {
-	margin-top: .7em; margin-bottom: 1em;
+    margin-top: .7em; margin-bottom: 1em;
 }
 
 #search-query {
-	display: block;
-	width: 100%; box-sizing: border-box;
+    display: block;
+    width: 100%; box-sizing: border-box;
 }
