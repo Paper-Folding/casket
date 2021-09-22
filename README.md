@@ -2,7 +2,7 @@
 
 ***casket* is an HTTP server** that supports `GET`, `POST` and `DELETE` requests. It can respond in HTML, JSON and plain text format, **the HTML-version being a file management UI**.
 
-It also supports file search [using Spotlight](https://github.com/derhuerst/node-spotlight), and it can stream any audio file to an AirPlay receiver.
+It also supports file search [using Spotlight](https://github.com/derhuerst/node-spotlight).
 
 ![casket serving a directory](demo.png)
 
@@ -25,7 +25,7 @@ npm install -g casket
 
 ```
 Usage:
-	casket [--name my-little-server] [--dir ~/path/to/dir] [--airplay my-apple-tv.local]
+	casket [--name my-little-server] [--dir ~/path/to/dir]
 
 Options:
     --name      -n  The name of the server, as shown in the GUI.
@@ -34,7 +34,6 @@ Options:
     --no-delete -w  Do not allow deletion of files.
     --no-upload -u  Do not allow file upload.
     --port      -p  Default is 8000.
-    --airplay   -a  An AirPlay receiver to stream audio to.
 ```
 
 

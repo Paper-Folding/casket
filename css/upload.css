@@ -10,14 +10,6 @@
 	text-align: center;
 }
 
-#upload #upload-files span {
-	display: block; padding: .5em 1em;
-	background-color: #bbb;
-}
-#upload #upload-files span:hover {
-	background-color: #ccc;
-}
-
 #upload #upload-files input{
 	position: absolute;
 	opacity: 0;

@@ -31,28 +31,6 @@ input[type="text"]:focus {
 	outline: none;
 	border-color: #aaa;
 }
-
-input[type="submit"],
-span.button,
-a.button,
-button {
-	padding: .2em .3em;
-	line-height: 1;
-	color: white; background-color: #34495e;
-	cursor: pointer;
-}
-span.button,
-a.button {
-	display: inline-block;
-	text-align: center;
-}
-input[type="submit"]:hover,
-span.button:hover,
-a.button:hover,
-button:hover {
-	background-color: #44596e;
-}
-
 .container {
 	margin: 0 auto; padding: 0 1em;
 	max-width: 35em;
